@@ -18,7 +18,7 @@ min-public-methods = 0
 disable = "W1201, W1203, R0401, W0707, W0221, W0603, R0801, R1735, W1514, C0209, W0237, R1732, W0602, typecheck"
 
 [tool.poetry.dependencies]
-python = ">=3.7,<3.9"
+python = ">=3.7,<4.0"
 apted = "^1.0.3"
 deprecated = "^1.2.10"
 grpcio = "^1.24.0"
