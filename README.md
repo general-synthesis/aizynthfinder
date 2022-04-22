@@ -12,6 +12,12 @@ AiZynthFinder is a tool for retrosynthetic planning. The algorithm is based on a
 
 An introduction video can be found here: [https://youtu.be/r9Dsxm-mcgA](https://youtu.be/r9Dsxm-mcgA)
 
+## Updates
+
+The code base has been udpated to be compatible with python 3.9, but requires:
+
+pip install --upgrade https://github.com/general-synthesis/route-distances.git
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
