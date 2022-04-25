@@ -162,7 +162,7 @@ class AiZynthApp:
         self._input["max_transforms"] = BoundedIntText(
             description="Max steps for substrates",
             min=1,
-            max=20,
+            max=64,
             value=self.finder.config.max_transforms,
             style={"description_width": "initial"},
         )
