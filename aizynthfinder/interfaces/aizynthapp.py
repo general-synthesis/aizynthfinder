@@ -137,10 +137,10 @@ class AiZynthApp:
             rows=min(len(self.finder.filter_policy.items) + 1, 4),
         )
 
-        max_time_box = self._make_slider_input("time_limit", "Time (min)", 1, 120)
+        max_time_box = self._make_slider_input("time_limit", "Time (min)", 1, 480)
         self._input["time_limit"].value = self.finder.config.time_limit / 60
         max_iter_box = self._make_slider_input(
-            "iteration_limit", "Max Iterations", 100, 2000
+            "iteration_limit", "Max Iterations", 100, 10000
         )
         self._input["iteration_limit"].value = self.finder.config.iteration_limit
         self._input["return_first"] = widgets.Checkbox(
